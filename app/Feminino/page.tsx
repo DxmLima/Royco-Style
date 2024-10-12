@@ -5,8 +5,6 @@ import Woman2 from '@/public/Woman2.jpg'
 import { CarouselBrand } from './../componentes/brandcarousell';
 
 
-
-
 function page() {
   return (
     <div>

@@ -9,6 +9,32 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 
+
+const brands = [
+    { src: '/Logos/REISS.svg', path: '/brands/reiss' },
+    { src: '/Logos/EmporioArmani.svg', path: '/brands/emporio-armani' },
+    { src: '/Logos/SaintLaurentParis.svg', path: '/brands/saint-laurent-paris' },
+    { src: '/Logos/AcneStudios.svg', path: '/brands/acne-studios' },
+    { src: '/Logos/RalphLauren.svg', path: '/brands/ralph-lauren' },
+    { src: '/Logos/Zegna.svg', path: '/brands/zegna' },
+    { src: '/Logos/Prada.svg', path: '/brands/prada' },
+    { src: '/Logos/VeronicaBeard.svg', path: '/brands/veronica-beard' },
+    { src: '/Logos/Gucci.svg', path: '/brands/gucci' },
+    { src: '/Logos/RayBan.svg', path: '/brands/ray-ban' },
+    { src: '/Logos/HugoBoss.svg', path: '/brands/hugo-boss' }, 
+    { src: '/Logos/IWC.svg', path: '/brands/iwc' },
+    { src: '/Logos/JCrew.svg', path: '/brands/jcrew' },
+    { src: '/Logos/MichaelKorns.svg', path: '/brands/michael-kors' },
+    { src: '/Logos/Sandro.svg', path: '/brands/sandro' },
+    { src: '/Logos/Celine.svg', path: '/brands/celine' },
+    { src: '/Logos/ColeHaan.svg', path: '/brands/cole-haan' },
+    { src: '/Logos/barbour.svg', path: '/brands/barbour' },
+    { src: '/Logos/MaxMara.svg', path: '/brands/max-mara' },
+    { src: '/Logos/Lafayette.svg', path: '/brands/lafayette' },
+  ];
+
+
+
 export function CarouselBrand() {
   return (
     <Carousel

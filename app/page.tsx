@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import { Alexandria } from 'next/font/google'
 import NavbarRoyco from './componentes/navbar';
 import CarouselHero from './componentes/sliderimg';

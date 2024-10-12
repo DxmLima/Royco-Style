@@ -1,5 +1,4 @@
 import React from 'react'
-import { AspectRatio } from "@/components/ui/aspect-ratio"
 import Image from "next/image"
 
 import Woman from '@/public/Woman.jpg'
