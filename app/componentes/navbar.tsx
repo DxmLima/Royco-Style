@@ -8,11 +8,11 @@ export default function NavbarRoyco() {
   const [state, setState] = React.useState(false)
 
   const firstMenus = [
-    { title: "Feminino", path: "/Trabalhos" },
-    { title: "Masculino", path: "/Templates" },
-    { title: "Relógio", path: "/Sobre" },
-    { title: "Óculos", path: "/Contato" },
-    { title: "Calçados", path: "/Contato" },
+    { title: "Feminino", path: "/Feminino" },
+    { title: "Masculino", path: "/Masculino" },
+    { title: "Relógio", path: "/Relogio" },
+    { title: "Óculos", path: "/Oculos" },
+    { title: "Calçados", path: "/Calçados" },
   ]
 
   return (
