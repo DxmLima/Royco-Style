@@ -2,7 +2,7 @@ import React from 'react'
 import NavbarRoyco from './../../componentes/navbar';
 import Image from 'next/image';
 import BannerReiss from '@/public/Banner/BannerReiss.png'
-import { Products } from './../../componentes/Products';
+
 
 import { ReissProduct } from './../../componentes/Reiss';
 
